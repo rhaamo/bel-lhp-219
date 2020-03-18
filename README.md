@@ -2,6 +2,13 @@
 
 Notes and various about this indian military radio.
 
+## Notes
+Coil trimmers value is not known, markings on them are like "108 205", "108 201", etc.
+
+Known values of caps might not be right, some have color code (top to bot: orange red red) or only military part number without a lookup table.
+
+Unless determined by schematics, Test Points doesn't have indications on what they are.
+
 ## H6 - Filter In
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H6%20top.JPG" width="500px">
 <br/>
@@ -12,3 +19,62 @@ Notes and various about this indian military radio.
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H8%20top.JPG" width="500px">
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H8%20schematic.jpg" width="1000px">
+
+## Connectors
+
+### Battery
+24V.
+
+```
+A -
+B +
+C N/C
+```
+
+### Front power connector
+Untested.
+
+`+` goes to battery `+`, minus..., `?` are unknown.
+
+```
++ -
+ ? ?
+? -
+```
+
+### Headsets
+
+H189 or H250 might works, connector is a `U-183/U`, corresponding headset connector is `U-182B/U, U-229/U`.
+
+## All modules
+```
+# Synthesizer                                               N 43547                             H27
+BULOVA  A410181     TXCO-1 FREQ 3.5MHz      PIN 1. +18V, 2. OUT, 3. GND, 4. NC
+Tuned Amplifier                                             N 43586                             H5
+Coil Block                                                  N 43553                             H15
+Voltage Controlled Oscillator                               N 43929                             H16 A
+5 Bit D/A Converter And Summing & Buffer Amplifier          N 43847                             H18
+Programmable Divider                                        1000 043 538 40                     H20
+Phase Comparator                                            N 43537                             H21
+Frequency Detector And Standard Divider                     N 43848                             H22
+Voltage Regulator +18V +14V                                 1140 001 980 78                     H25A
+Switching Regulator 5V                                      N 43531                             H26
+
+# Main
+Power Supply                                                N 43680                             H1
+Driver                                                      N 43685                             H2
+Aerial Filter, ALC & Metering Unit                          N 43655                             H3
+
+# xxx
+Filter In                                                   N 43706                             H6
+Filter Out                                                  N 43707                             H7
+A.G.C                                                       N 43708                             H8
+Detector And Receive Audio                                  1140 006 871 52                     H9A
+1750/1751KHz Generator                                      N 43710                             H10
+Summing Amplifier And 10V Regulator                         N 43711                             H11
+Transmitter IF                                              N 43712                             H12
+Transmit Audio And Tone Generator                           N 43713                             H13
+
+# Front
+Power Amp                                                   N 43668                             H4
+```
