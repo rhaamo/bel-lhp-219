@@ -20,6 +20,11 @@ Unless determined by schematics, Test Points doesn't have indications on what th
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H8%20schematic.jpg" width="1000px">
 
+## H14 - Hinged PCB Modules (H6, H7, H8, H9A, H10, H11, H12, H13, Crystal Filters: CW and LSB)
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H14%20hinged%20pcb.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H14%20hinged%20pcb%20schematic.jpg" width="1000px">
+
 ## Connectors
 
 ### Battery
@@ -65,7 +70,7 @@ Power Supply                                                N 43680             
 Driver                                                      N 43685                             H2
 Aerial Filter, ALC & Metering Unit                          N 43655                             H3
 
-# xxx
+# Hinged Module Assembly                                                                        H14
 Filter In                                                   N 43706                             H6
 Filter Out                                                  N 43707                             H7
 A.G.C                                                       N 43708                             H8
