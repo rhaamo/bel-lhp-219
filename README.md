@@ -3,6 +3,9 @@
 Notes and various about this indian military radio.
 
 ## Notes
+
+All schematics are a "View From Top", like seeing in X-ray from the top. That was easier to reverse the PCBs.
+
 Coil trimmers value is not known, markings on them are like "108 205", "108 201", etc.
 
 Known values of caps might not be right, some have color code (top to bot: orange red red) or only military part number without a lookup table.
