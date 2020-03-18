@@ -74,6 +74,8 @@ Detector And Receive Audio                                  1140 006 871 52     
 Summing Amplifier And 10V Regulator                         N 43711                             H11
 Transmitter IF                                              N 43712                             H12
 Transmit Audio And Tone Generator                           N 43713                             H13
+Crystal Filter CW Freq 1.75MHz
+Crystal Filter LSB Freq 1.75MHz
 
 # Front
 Power Amp                                                   N 43668                             H4
