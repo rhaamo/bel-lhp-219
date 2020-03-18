@@ -30,6 +30,9 @@ Unless determined by schematics, Test Points doesn't have indications on what th
 
 ## Connectors
 
+### H14 - Hinged PCB Connector
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H14 main connector.png" width="500px">
+
 ### Battery
 24V.
 
