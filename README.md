@@ -41,6 +41,12 @@ Pins
 10: GND
 ```
 
+## H21 - Phase Comparator
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H21%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H21%20schematic.jpg" width="1000px">
+
+
 ## Connectors
 
 ### H14 - Hinged PCB Connector
