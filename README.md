@@ -28,6 +28,19 @@ Unless determined by schematics, Test Points doesn't have indications on what th
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H14%20hinged%20pcb%20schematic.jpg" width="1000px">
 
+## H25A - Voltage Regulator +18V +14V
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H25A%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H25A%20schematic.jpg" width="1000px">
+
+Pins
+```
+1: Out (TP J2)
+4: Out (TP J3)
+7: In
+10: GND
+```
+
 ## Connectors
 
 ### H14 - Hinged PCB Connector
