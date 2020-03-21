@@ -60,6 +60,9 @@ Pins
 ### H5-2
 
 ### H5-1
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H5-1%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H5-1%20schematic.jpg" width="1000px">
 
 ### Rotary selector and filters connection
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/scans/P1.jpg" width="500px"><br>
