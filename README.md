@@ -46,6 +46,13 @@ Pins
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H21%20schematic.jpg" width="1000px">
 
+## H4 - Tuned Amplifier Assembly
+### H5-4
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H5-4%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H5-4%20schematic.jpg" width="1000px">
+
+
 
 ## Connectors
 
