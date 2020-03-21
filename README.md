@@ -35,11 +35,14 @@ Unless determined by schematics, Test Points doesn't have indications on what th
 
 Pins
 ```
-1: Out (TP J2)
-4: Out (TP J3)
+1: +18V (TP J2)
+4: +14V (TP J3)
 7: In
 10: GND
 ```
+
+## H27 - Synthesizer assembly (H15, H16, H18, H20, H24-Y1, H21, H22, H25, H26)
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H27.jpg" width="500px">
 
 ## H21 - Phase Comparator
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H21%20top.JPG" width="500px">
