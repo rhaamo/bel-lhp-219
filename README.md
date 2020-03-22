@@ -50,6 +50,7 @@ Pins
 
 ## H27 - Synthesizer assembly (H15, H16, H18, H20, H24-Y1, H21, H22, H25, H26)
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H27.jpg" width="500px">
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/scans/H27%20pt2.jpg" width="500px">
 
 ## H21 - Phase Comparator
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H21%20top.JPG" width="500px">
@@ -87,6 +88,9 @@ Pins
 
 ### H14 - Hinged PCB Connector
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H14%20main%20connector.png" width="500px">
+
+### Front panel (except frequency selectors)
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/scans/front%20panel.jpg" width="500px">
 
 ## Block diagrams
 ### HF
