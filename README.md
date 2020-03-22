@@ -17,6 +17,13 @@ Unless determined by schematics, Test Points doesn't have indications on what th
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H6%20schematic.jpg" width="1000px">
 
+TP
+```
+J3:
+J4:
+J5:
+J6: RF in from pin3 (pin 3 of H14 connector, coax white/blue)
+```
 
 ## H8 - A.G.C
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H8%20top.JPG" width="500px">
@@ -80,6 +87,11 @@ Pins
 
 ### H14 - Hinged PCB Connector
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H14%20main%20connector.png" width="500px">
+
+## Block diagrams
+### HF
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/RF%20block%20diagram.png" width="500px">
+
 
 ### Battery
 24V.
