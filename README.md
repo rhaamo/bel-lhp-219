@@ -30,6 +30,11 @@ J6: RF in from pin3 (pin 3 of H14 connector, coax white/blue)
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H8%20schematic.jpg" width="1000px">
 
+## H11 - Summing Amplifier And 10V Regulator
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H11%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H11%20schematic.jpg" width="1000px">
+
 ## H12 - Transmitter IF
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H12%20top.JPG" width="500px">
 <br/>
