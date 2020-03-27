@@ -57,8 +57,8 @@ J7:
 
 TP
 ```
-J3:
-J4: Emitter of Q3
+J3: Audio Out (to front connectors)
+J4: Audio In (from RX circuit through 108k gain pot)
 ```
 
 ## H10 - 1750/1751KHz Generator
@@ -199,7 +199,7 @@ H189 or H250 might works, connector is a `U-183/U`, corresponding headset connec
 
 ## All modules
 
-## Synthesizer, N 43547, H27
+### Synthesizer, N 43547, H27
 
 | Name                                               | "Schematized" | Reference 1     | Reference 2 |
 |----------------------------------------------------|---------------|-----------------|-------------|
@@ -214,7 +214,7 @@ H189 or H250 might works, connector is a `U-183/U`, corresponding headset connec
 | Voltage Regulator +18V +14V                        |  Yes          | 1140 001 980 78 | H25A        |
 | Switching Regulator 5V                             |  No           | N 43531         | H26         |
 
-## Main
+### Main
 
 | Name                               | "Schematized" | Reference 1 | Reference 2 |
 |------------------------------------|---------------|-------------|-------------|
@@ -222,7 +222,7 @@ H189 or H250 might works, connector is a `U-183/U`, corresponding headset connec
 | Driver                             | No            | N 43685     | H2          |
 | Aerial Filter, ALC & Metering Unit | No            | N 43655     | H3          |
 
-## Hinged Module Assembly, H14
+### Hinged Module Assembly, H14
 
 | Name                                | "Schematized" | Reference 1     | Reference 2 |
 |-------------------------------------|---------------|-----------------|-------------|
@@ -237,8 +237,15 @@ H189 or H250 might works, connector is a `U-183/U`, corresponding headset connec
 | Crystal Filter CW Freq 1.75MHz      | N/a           |                 |             |
 | Crystal Filter LSB Freq 1.75MHz     | N/a           |                 |             |
 
-## Front
+### Front
 
 | Name      | "Schematized" | Reference 1 | Reference 2 |
 |-----------|---------------|-------------|-------------|
 | Power Amp | No            | N 43668     | H4          |
+
+## Various notes
+
+Audio path (WIP):
+```
+H16A p19 -> (brown) -> [gain pot, 108k] -> (green) -> H9 J2 p4 -> [magic] -> H9 J2 p3 -> (blue) -> front connector
+```
