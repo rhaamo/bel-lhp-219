@@ -12,6 +12,11 @@ Known values of caps might not be right, some have color code (top to bot: orang
 
 Unless determined by schematics, Test Points doesn't have indications on what they are.
 
+## Links
+
+- Some specs: http://www.greenradio.de/htm2/e_lhp219.htm
+- Full teardown: https://www.youtube.com/watch?v=M3-ErxbTwJw
+
 ## H6 - Filter In
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H6%20top.JPG" width="500px">
 <br/>
