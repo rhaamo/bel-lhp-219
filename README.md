@@ -19,10 +19,25 @@ Unless determined by schematics, Test Points doesn't have indications on what th
 
 TP
 ```
-J3:
-J4:
-J5:
+J3: LSB Filter In
+J4: GND
+J5: CW Filter In
 J6: RF in from pin3 (pin 3 of H14 connector, coax white/blue)
+J7: 
+```
+
+## H7 - Filter Out
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H7%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H7%20schematic.jpg" width="1000px">
+
+TP
+```
+J3: LSB Filter Out
+J4: GND
+J5: CW Filter Out
+J6: 
+J7: 
 ```
 
 ## H8 - A.G.C
