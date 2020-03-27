@@ -45,15 +45,38 @@ J7:
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H8%20schematic.jpg" width="1000px">
 
+## H9A - Detector And Receive Audio
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H9A%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H9A%20schematic.jpg" width="1000px">
+
+TP
+```
+J3:
+J4:
+```
+
 ## H11 - Summing Amplifier And 10V Regulator
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H11%20top.JPG" width="500px">
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H11%20schematic.jpg" width="1000px">
 
+TP
+```
+J3:
+J4:
+```
+
 ## H12 - Transmitter IF
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H12%20top.JPG" width="500px">
 <br/>
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H12%20schematic.jpg" width="1000px">
+
+TP
+```
+J3: Q1 in from IC2
+J4: Q3 in from IC1
+```
 
 ## H14 - Hinged PCB Modules (H6, H7, H8, H9A, H10, H11, H12, H13, Crystal Filters: CW and LSB)
 <img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/hinged%20pcb.JPG" width="500px">
