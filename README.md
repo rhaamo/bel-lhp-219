@@ -193,36 +193,47 @@ Untested.
 H189 or H250 might works, connector is a `U-183/U`, corresponding headset connector is `U-182B/U, U-229/U`.
 
 ## All modules
-```
-# Synthesizer                                               N 43547                             H27
-BULOVA  A410181     TXCO-1 FREQ 3.5MHz      PIN 1. +18V, 2. OUT, 3. GND, 4. NC
-Tuned Amplifier                                             N 43586                             H5
-Coil Block                                                  N 43553                             H15
-Voltage Controlled Oscillator                               N 43929                             H16 A
-5 Bit D/A Converter And Summing & Buffer Amplifier          N 43847                             H18
-Programmable Divider                                        1000 043 538 40                     H20
-Phase Comparator                                            N 43537                             H21
-Frequency Detector And Standard Divider                     N 43848                             H22
-Voltage Regulator +18V +14V                                 1140 001 980 78                     H25A
-Switching Regulator 5V                                      N 43531                             H26
 
-# Main
-Power Supply                                                N 43680                             H1
-Driver                                                      N 43685                             H2
-Aerial Filter, ALC & Metering Unit                          N 43655                             H3
+## Synthesizer, N 43547, H27
 
-# Hinged Module Assembly                                                                        H14
-Filter In                                                   N 43706                             H6
-Filter Out                                                  N 43707                             H7
-A.G.C                                                       N 43708                             H8
-Detector And Receive Audio                                  1140 006 871 52                     H9A
-1750/1751KHz Generator                                      N 43710                             H10
-Summing Amplifier And 10V Regulator                         N 43711                             H11
-Transmitter IF                                              N 43712                             H12
-Transmit Audio And Tone Generator                           N 43713                             H13
-Crystal Filter CW Freq 1.75MHz
-Crystal Filter LSB Freq 1.75MHz
+| Name                                               | "Schematized" | Reference 1     | Reference 2 |
+|----------------------------------------------------|---------------|-----------------|-------------|
+| Tuned Amplifier                                    |  Yes          | N 43586         | H5          |
+| Coil Block                                         |  No           | N 43553         | H15         |
+| Voltage Controlled Oscillator                      |  Not Yet      | N 43929         | H16A        |
+| 5 Bit D/A Converter And Summing & Buffer Amplifier |  Not Yet      | N 43847         | H18         |
+| Programmable Divider                               |  No           | 1000 043 538 40 | H20         |
+| Phase Comparator                                   |  Yes          | N 43537         | H21         |
+| Frequency Detector And Standard Divider            |  Not Yet      | N 43848         | H22         |
+| BULOVA TXCO-1 FREQ 3.5MHz                          |  N/a          | A410181         | H24         |
+| Voltage Regulator +18V +14V                        |  Yes          | 1140 001 980 78 | H25A        |
+| Switching Regulator 5V                             |  No           | N 43531         | H26         |
 
-# Front
-Power Amp                                                   N 43668                             H4
-```
+## Main
+
+| Name                               | "Schematized" | Reference 1 | Reference 2 |
+|------------------------------------|---------------|-------------|-------------|
+| Power Supply                       | No            | N 43680     | H1          |
+| Driver                             | No            | N 43685     | H2          |
+| Aerial Filter, ALC & Metering Unit | No            | N 43655     | H3          |
+
+## Hinged Module Assembly, H14
+
+| Name                                | "Schematized" | Reference 1     | Reference 2 |
+|-------------------------------------|---------------|-----------------|-------------|
+| Filter In                           | Yes           | N 43706         | H6          |
+| Filter Out                          | Yes           | N 43707         | H7          |
+| A.G.C                               | Yes           | N 43708         | H8          |
+| Detector And Receive Audio          | Yes           | 1140 006 871 52 | H9A         |
+| 1750/1751KHz Generator              | Yes           | N 43710         | H10         |
+| Summing Amplifier And 10V Regulator | Yes           | N 43711         | H11         |
+| Transmitter IF                      | Yes           | N 43712         | H12         |
+| Transmit Audio And Tone Generator   | Yes           | N 43713         | H13         |
+| Crystal Filter CW Freq 1.75MHz      | N/a           |                 |             |
+| Crystal Filter LSB Freq 1.75MHz     | N/a           |                 |             |
+
+## Front
+
+| Name      | "Schematized" | Reference 1 | Reference 2 |
+|-----------|---------------|-------------|-------------|
+| Power Amp | No            | N 43668     | H4          |
