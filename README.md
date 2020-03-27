@@ -53,6 +53,17 @@ J7:
 TP
 ```
 J3:
+J4: Emitter of Q3
+```
+
+## H10 - 1750/1751KHz Generator
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H10%20top.JPG" width="500px">
+<br/>
+<img src="https://raw.githubusercontent.com/rhaamo/bel-lhp-219/master/H10%20schematic.jpg" width="1000px">
+
+TP
+```
+J3: Emitter of Q3
 J4:
 ```
 
@@ -65,6 +76,7 @@ TP
 ```
 J3:
 J4:
+J5:
 ```
 
 ## H12 - Transmitter IF
